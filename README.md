@@ -63,7 +63,7 @@ One useful way to think of scope locals is as invisible, effectively
 final, parameters that are passed through every method invocation.
 These parameters will be accessible within the "dynamic scope" of a
 scope local's binding operation (the set of methods invoked within the
-binding scope, and any methods invoked transitively by them.) They are
+binding scope, and any methods invoked transitively by them). They are
 guaranteed to be re-entrant &mdash; when used correctly.
 
 Scope locals can also provide us with some other nice-to-have
